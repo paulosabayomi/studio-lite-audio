@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sonobus_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="nNQ-TI-MGT">
+                                <rect key="frame" x="71.666666666666686" y="301" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="YJ7-4S-kBW"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="bCQ-hT-uwj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Studio Lite Audio by Flow Basket Inc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0U-z2-e7T" userLabel="Flow Basket Inc">
+                                <rect key="frame" x="63" y="777" width="267" height="21"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wg8-5P-9xv"/>
+                        <color key="backgroundColor" red="0.17309463019999999" green="0.21113863590000001" blue="0.25490769740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="nNQ-TI-MGT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Wg8-5P-9xv" secondAttribute="leading" constant="40" id="5Cj-Qr-qiK"/>
+                            <constraint firstItem="Wg8-5P-9xv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nNQ-TI-MGT" secondAttribute="trailing" constant="40" id="C0h-R7-HEP"/>
+                            <constraint firstItem="B0U-z2-e7T" firstAttribute="centerX" secondItem="Wg8-5P-9xv" secondAttribute="centerX" id="H7F-Cv-2kE"/>
+                            <constraint firstItem="nNQ-TI-MGT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ehe-qG-pio"/>
+                            <constraint firstItem="Wg8-5P-9xv" firstAttribute="bottom" secondItem="B0U-z2-e7T" secondAttribute="bottom" constant="20" id="iab-7C-Fui"/>
+                            <constraint firstItem="Wg8-5P-9xv" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nNQ-TI-MGT" secondAttribute="bottom" constant="40" id="s4g-zH-X4Q"/>
+                            <constraint firstItem="nNQ-TI-MGT" firstAttribute="centerX" secondItem="Wg8-5P-9xv" secondAttribute="centerX" id="wVo-ge-HXH"/>
+                            <constraint firstItem="nNQ-TI-MGT" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Wg8-5P-9xv" secondAttribute="top" constant="40" id="xXo-PC-37i"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="132.68365817091458"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.17309463019999999" green="0.21113863590000001" blue="0.25490769740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+    <resources>
+        <image name="sonobus_logo.png" width="512" height="512"/>
+    </resources>
+</document>
